@@ -17,34 +17,39 @@
 - Node.js (v14 or higher)
 - NPM (Node Package Manager)
 
-### Installation Steps
+Kurulum
+Gereksinimler
+Node.js (v14 veya üstü)
+npm (v6 veya üstü)
+Kurulum Adımları
+Depoyu klonlayın:
 
-```bash
-git clone https://github.com/your_username/xenithra.git
-cd xenithra
+bash
+Kodu kopyala
+git clone https://github.com/KenMikeZ/Xenithra.git
+cd Xenithra
+Gerekli paketleri yükleyin:
+
+bash
+Kodu kopyala
 npm install
+Geliştirme sunucusunu başlatın:
+
+bash
+Kodu kopyala
 npx hardhat node
-🛠️ Usage
-Conduct Transactions
-Start the local Ethereum network by running npx hardhat node.
-In a new terminal, deploy your contract by executing:
+Dağıtım yapmak için yeni bir terminal açın ve şu komutu çalıştırın:
+
+bash
+Kodu kopyala
 npx hardhat run scripts/deploy.js --network local
-After deployment, interact with the smart contract using the provided interface or scripts.
-Wallet Management
-Create a wallet to store your digital assets.
-Use the interface to send, receive, and manage your assets securely.
-Additional Features
-Explore the platform’s features to access various functionalities such as staking, governance, and more as they become available.
-🤝 Contributing
-To contribute to the Xenithra project, please report issues in the issues section or submit a pull request. All contributions are valued!
+Kullanım
+Xenithra'nın nasıl kullanılacağına dair detaylı bilgiye belgelere göz atabilirsiniz.
 
-📜 License
-🎉 License: MIT License 🎉
+Lisans
+Bu proje MIT Lisansı altında lisanslanmıştır.
 
-Xenithra is licensed under the MIT License. Please refer to the LICENSE file for details.
+İletişim
+Sorularınız veya önerileriniz için lütfen benimle iletişime geçin:
 
-📬 Contact
-For any questions or suggestions, please feel free to reach out:
-
-Email: info@xenithra.com
-Twitter: @Xenithra
+E-posta: example@example.com
